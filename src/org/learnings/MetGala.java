@@ -29,5 +29,6 @@ public class MetGala {
         }else {
             System.out.println("Non sei nella lista degli invitati, non puoi entrare");
         }
+        scanner.close();
     }
 }
