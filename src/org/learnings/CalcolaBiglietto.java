@@ -17,6 +17,6 @@ public class CalcolaBiglietto {
             finalPrice= finalPrice * 0.6;
         }
         System.out.println("Il prezzo del tuo biglietto è: " + finalPrice + "€");
-
+        scanner.close();
     }
 }
