@@ -1,7 +1,5 @@
 package org.learnings;
 
-import java.util.Scanner;
-
 public class FavoriteFoods {
     public static void main(String[] args) {
         String[] foods = {
