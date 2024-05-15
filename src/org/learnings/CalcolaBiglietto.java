@@ -10,8 +10,7 @@ public class CalcolaBiglietto {
         System.out.print("Inserisci la tua età ");
         int age= Integer.parseInt(scanner.nextLine());
         double pricePerKm= 0.21;
-        double fullPrice= pricePerKm * distance;
-        double finalPrice = fullPrice;
+        double finalPrice = pricePerKm * distance;
         if(age<18){
             finalPrice = finalPrice * 0.8;
         }else if(age >65){
