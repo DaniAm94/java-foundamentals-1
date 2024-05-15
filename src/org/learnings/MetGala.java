@@ -25,9 +25,9 @@ public class MetGala {
             }
         }
         if (isInList){
-            System.out.println("Sei nella lista degli invitati. Puoi entrare");
+            System.out.println("Sei nella lista degli invitati, puoi entrare");
         }else {
-            System.out.println("Non sei nella lista degli invitati. Non puoi entrare");
+            System.out.println("Non sei nella lista degli invitati, non puoi entrare");
         }
     }
 }
