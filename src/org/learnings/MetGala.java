@@ -19,8 +19,8 @@ public class MetGala {
         System.out.print("Come ti chiami? ");
         String name= scanner.nextLine();
         Boolean isInList= false;
-        for (int i = 0; i < guests.length; i++) {
-            if(name.equals(guests[i]) ){
+        for (String guest : guests) {
+            if(name.equals(guest) ){
                 isInList= true;
             }
         }
